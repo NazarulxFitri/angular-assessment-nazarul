@@ -1,0 +1,14 @@
+<div class="component-container">
+    <div class="form">
+        <label for="uname">Username</label>
+        <input type="text" name="uname" [(ngModel)]="username" />
+    </div>
+    <div class="form">
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" [(ngModel)]="password" />
+    </div>
+    <div clas="login">
+        <button (click)="login()">Login</button>
+        <div class="error-message">{{errorMsg}}</div>
+    </div>
+</div>

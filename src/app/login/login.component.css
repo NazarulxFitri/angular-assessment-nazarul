@@ -1,0 +1,40 @@
+.component-container {
+    box-shadow: 1px 1px 10px #d9d9d9;
+    padding: 32px;
+    margin: auto;
+    width: 320px;
+}
+
+.form {
+    margin-bottom: 16px;
+}
+
+.form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px;
+    
+}
+
+.form input {
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    height: 40px;
+    padding-left: 8px;
+    width: 100%;
+}
+
+ button {
+    border: 1px solid #d9d9d9;
+    background: #efefef;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.error-message {
+    color: #b7021d;
+    margin-top: 8px;
+}

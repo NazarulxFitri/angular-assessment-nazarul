@@ -1,0 +1,19 @@
+.header-container {
+    background: #b7021d;
+    color: #FFF;
+    display: flex;
+    padding: 24px;
+}
+
+.nav-menu {
+    margin: auto 0 auto auto;
+}
+
+.listings {
+    display: flex;
+}
+
+.listings li {
+    list-style: none;
+    margin: 0 8px;
+}
