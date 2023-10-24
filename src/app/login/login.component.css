@@ -1,8 +1,14 @@
 .component-container {
     box-shadow: 1px 1px 10px #d9d9d9;
     padding: 32px;
-    margin: auto;
+    margin: 24px auto;
     width: 320px;
+}
+
+@media (max-width: 400px) {
+    .component-container {
+       width: 260px;
+    }
 }
 
 .form {
