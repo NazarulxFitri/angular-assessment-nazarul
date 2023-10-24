@@ -11,3 +11,7 @@ button {
 .negative-screen {
     text-align: center;
 }
+
+.data {
+    overflow: scroll;
+}

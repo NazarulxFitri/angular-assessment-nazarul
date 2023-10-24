@@ -1,0 +1,15 @@
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    min-height: 80vh;
+    padding: 24px 60px;
+}
+
+@media (max-width: 400px) {
+    .main-container {
+        padding: 16px;
+        margin: 0;
+    }
+}
