@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   async ngOnInit() {
     // @ts-ignore
     await this?.dataService?.getData()?.subscribe((data) => {
-      this.data = data;
+      this.data = data.data;
       this.cdr.detectChanges();
     });
   }

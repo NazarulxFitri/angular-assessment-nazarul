@@ -1,8 +1,18 @@
 <div class="data" *ngIf="isAuth">
     <h2>Data</h2>
-    <pre>{{ data | json }}</pre>
+    <div class="card-container">
+        <div class="card" *ngFor="let i of data">
+            <div>
+                <img src={{i.avatar}} alt={{i.first_name}} />
+            </div>
+            <div>
+                <p><b>{{i.first_name}} {{i.last_name}}</b></p>
+                <p>{{i.email}}</p>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="negative-screen" *ngIf="!isAuth">
-     <p>{{errorScreen}}</p>
-     <button (click)="redirect()">Go to login screen</button>
+    <p>{{errorScreen}}</p>
+    <button (click)="redirect()">Go to login screen</button>
 </div>
